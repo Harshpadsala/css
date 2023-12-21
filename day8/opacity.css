@@ -1,0 +1,12 @@
+div{
+    width:300px;
+    height: 300px;
+    /* alpha */
+    background-color :rgba(132, 174, 210, 0.64);
+}
+
+#opacity{
+    width:300px;
+    height: 300px;
+    opacity: 0.1;
+}

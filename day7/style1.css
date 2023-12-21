@@ -1,0 +1,52 @@
+div{
+    height: 300px;
+    width:500px;
+
+    background-color: rgb(255, 246, 235);
+
+    /* border : width style color */
+
+    border-width: 20px;
+    border: double;
+    border-color: black;
+
+/* border sides  */
+    /* 
+    border-left:  purple dotted;
+    border-right-style:double ; */
+
+/* border-radius */
+    
+    /* border-radius: 50%; */
+    border-radius: 15px;
+
+    /* paddingx*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /* shorthand of pading  */
+    /* for all side ---> padding : 10px */
+    /* top=bottom and left=right  ------> padding:10px 20px;
+        top left/right bottom --------> padding:10px 20px 10px
+        top right bottom left - clockwise 
+    */
+
+    margin: 25px;
+
+    /* shorthand is same as padding  */
+
+}
+
+h1{
+    width: 500px;
+    border-width: 5px; 
+    border: dotted;
+    border-color: green;
+}
+button{
+    border: solid black;
+    border-radius: 10px;
+    padding: 15px;
+}

@@ -1,0 +1,35 @@
+div{
+    border: 1px solid black;
+    height: 75px;
+    width: 300px;
+    background-color: yellowgreen;
+    color: black ;
+    font: bold;
+    margin: 30px;
+    text-align: center;
+
+    /* box-shadow: x y radius color; */
+    box-shadow: 5px 5px 10px black;
+}
+
+/* https://unsplash.com/ ---> unsplash for free photo */
+
+#bg{
+    height: 500px;
+    width:1000px;
+    background-image: url(bgphoto.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+#but{
+    height: 100px;
+    width: 400px;
+    margin:100px;
+
+    background-image: url(bgphoto.jpg);
+    background-size: auto;
+    text:bold;
+    font-size: 40px;
+    color:rgb(198, 198, 198);
+}

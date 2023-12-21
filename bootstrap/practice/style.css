@@ -1,0 +1,8 @@
+.maincont{  
+    text-align: center;
+
+}
+.subcont{
+    display: flex;
+    justify-content: space-around;
+}

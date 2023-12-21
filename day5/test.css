@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia;
+}
+h1,h4,h3{
+    text-align: center;
+}
+button{
+    color: blueviolet;
+    background-color: white;
+}
+textarea{
+    color: black;
+}
+p{
+    line-height: 30px;
+}
+.Ozymandias{
+    text-decoration: black wavy underline;
+}

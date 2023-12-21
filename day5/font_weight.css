@@ -1,0 +1,25 @@
+/* weight is used for bold 100-900 */
+h1{
+    font-weight: 400;
+    text-decoration: wavy red underline;
+    letter-spacing: 4px;
+    font-family: copperplate;
+}
+h3{
+    font-weight: 450;
+    text-decoration:dotted green overline;
+}
+
+h2{
+    text-decoration:double pink line-through;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    text-decoration: rgb(207, 70, 207) double underline;
+    font-size:x-large;
+    line-height: 2.5;
+    font-family:papyrus;
+
+}

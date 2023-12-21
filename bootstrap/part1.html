@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="part1.css">
+    <title>bootstrap</title>
+</head>
+<body>
+    
+
+    <nav class="navbar bg-body-tertiary navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand ">Alumeria</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link">home</a>
+                    <a href="#" class="nav-link">contact</a>
+                    <a href="#" class="nav-link">about</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <div class="container">
+
+        <h2>Bootstrap Container</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium iure ipsam laboriosam asperiores aliquid rem perspiciatis labore reprehenderit beatae? Necessitatibus, corporis adipisci tenetur exercitationem deserunt quidem iure qui beatae porro vel nesciunt maxime cum rem! Optio, consequatur in expedita eligendi incidunt eos voluptatum maxime possimus cupiditate similique ex at numquam dolore recusandae voluptatibus quae ullam obcaecati, commodi magnam repudiandae enim perspiciatis. Illo eum voluptates vero temporibus. Necessitatibus, unde? Tempora blanditiis, quidem sed molestiae eum velit corporis impedit. Quo blanditiis, odit quidem doloribus quae aut officiis impedit dolorum? Minima possimus excepturi odit recusandae consectetur necessitatibus dolore aperiam! Assumenda mollitia ducimus ab quod! Nihil aspernatur ipsa obcaecati aut, aperiam sapiente nulla velit delectus at autem! Repudiandae sunt ducimus, deserunt dolor ullam sint fugit ipsam quia exercitationem consectetur, ex ipsum dolores saepe dolorem nam repellendus reprehenderit incidunt dignissimos culpa sit iste rerum ratione. Beatae ut consequatur doloribus dolores maxime quisquam similique praesentium ipsa? Voluptas nostrum ipsum eligendi, consequuntur soluta illo. Repudiandae hic deserunt provident dolor incidunt, consectetur quaerat natus delectus quae ipsum! Consequuntur quidem sit odit blanditiis est maiores officia deleniti dicta qui, rem, facilis soluta fuga reprehenderit numquam earum sed debitis? Iusto, sed! Dolor assumenda facilis modi! Eum, consectetur vel? Nobis aperiam laboriosam cupiditate natus at dicta? Fugiat, maiores ipsam enim eius quisquam sunt? A reprehenderit quibusdam alias! Repudiandae cumque alias ab cum, saepe officia temporibus sunt odio maiores tempora optio nostrum consequatur sed minima accusamus molestias recusandae quidem mollitia, dignissimos labore provident excepturi! Veritatis asperiores laudantium minus mollitia omnis consectetur veniam repudiandae numquam illum sit? Officiis quibusdam quis velit rerum cumque at sapiente id officia qui deserunt modi, impedit perferendis eveniet eligendi tempore dolores corporis nam explicabo pariatur consequatur. Perferendis officiis ratione eum eos mollitia error expedita, ducimus beatae dolores recusandae id dignissimos, excepturi incidunt accusantium perspiciatis quisquam explicabo architecto cum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At in iste unde, nihil qui illo, laudantium aliquid maxime molestias impedit, saepe nam similique. Doloribus, architecto recusandae assumenda rerum exercitationem animi aliquid libero ipsa quia dolore quod, maiores aut provident obcaecati, veritatis voluptatibus. Provident aut explicabo minus natus! Similique, ab. Incidunt.</p>
+
+    <hr>
+
+    <!-- button class -> btn  -->
+
+    <!-- bg colors for 
+        danger- red 
+         primary - blue -->
+
+         
+    <button class="btn btn-danger">button</button>
+    <button class="btn btn-warning">button</button>
+    <button class="btn btn-info">button</button>
+    <button class="btn btn-primary">button</button>
+    <button class="btn btn-success">button</button>
+    <button class="btn btn-light">button</button>
+    <button class="btn btn-dark">button</button>
+    <button class="btn btn-bg">button</button>
+    <button class="btn btn-sm">button</button>
+    <button class="btn btn-outline-dark">button</button>
+    
+    
+    <button class="btn btn-outline-dark" disabled>button</button>
+
+
+    <a href="https://www.google.com" class="btn btn-dark">google</a>
+
+    <hr>
+
+    <!-- badge , notification -->
+
+    <span class="badge bg-dark">this  is badge</span>
+    <br>
+    <button class="btn btn-info">
+        follower
+        <span class="badge bg-danger">100+</span>
+    </button>
+    <button class="btn btn-info">
+        follower
+        <span class="badge bg-danger rounded-pill">100+</span>
+    </button>
+
+
+    <hr>
+
+    <h3>alert</h3>
+
+    <div class="alert alert-danger alert-dismissible">
+        Download fail.please try again
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <div class="alert alert-success">congralutaion,you are winner</div>
+
+
+    <hr>
+    <hr>
+
+   
+
+
+    <h1>button goruping</h1>
+
+    <div class="btn-group">
+        <button class="btn btn-success">home</button>
+        <button class='btn btn-danger'>contact</button>
+        <button class='btn btn-info'>about</button>
+    </div>
+
+    <hr>
+
+    <h2>cards</h2>
+
+    <div class="card" style="width: 10rem;">
+        <img src="img1.jpeg" class="card-img-top">
+       
+        <div class="card-body">
+            <h2 class="card-title">card title</h2>
+            <p>this is nice photo</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 bg-success">col 1</div>
+            <div class="col-xl-6 bg-danger">col 2</div>
+            <div class="col-xl-2 bg-success">col 3</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 bg-danger">col 1</div>
+            <div class="col-md-8 bg-success">col 2</div>
+            <div class="col-md-2 bg-danger">col 3</div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col bg-danger">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas est officia perferendis repellendus eaque, fugit excepturi soluta cum velit, nam minus possimus sapiente labore praesentium earum ea nobis eum quaerat ab explicabo. Tempora excepturi hic facere tenetur aliquam corrupti! dolor sit, amet consectetur adipisicing elit. Facere odit quasi, provident fuga asperiores ab doloremque nostrum maxime quia odio, suscipit deleniti cumque molestias, neque magni libero quam tempore. Nam?</div>
+            <div class="col bg-info">Lorem ipsu Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam neque nisi saepe ex provident velit ipsam ipsa dicta necessitatibus rerum minima consequuntur totam possimus perspiciatis quidem repellendus excepturi debitis, ipsum quod earum ad voluptatum. Aperiam pariatur vero quisquam consequatur quos? dolor sit amet consectetur adipisicing elit. Ut rem, qui labore voluptatibus beatae possimus, dolore tenetur a dolorum consequatur reprehenderit? Repellat error ut deserunt tempora fuga saepe sed debitis. ipsum dolor sit, amet consectetur adipisicing elit. Facere odit quasi, provident fuga asperiores ab doloremque nostrum maxime quia odio, suscipit deleniti cumque molestias, neque magni libero quam tempore. Nam?</div>
+            <div class="col bg-warning">Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut asperiores velit temporibus corrupti beatae natus fugit laboriosam excepturi nesciunt exercitationem? Nisi consequatur cumque provident explicabo alias modi beatae, aspernatur voluptatum. ipsum dolor sit, amet consectetur adipisicing elit. Facere odit quasi, provident fuga asperiores ab doloremque nostrum maxime quia odio, suscipit deleniti cumque molestias, neque magni libero quam tempore. Nam?</div>
+
+        </div>
+    </div>
+
+
+    <hr><hr>
+
+    <div class="container">
+
+        <h1>form demo</h1>
+        <form>
+
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email@gmail.com" class="form-control">
+                </div>
+
+                <div class="mb-3 col-md-6">
+                    <label for="pass" class="form-label">Password</label>
+                    <input type="text" name="pass" id="pass" placeholder="password" class="form-control">
+                </div>
+
+            </div>
+
+            <div class="mb-3">
+                <label for="add" class="form-label">address</label>
+                <input type="text" name="add" id="add" placeholder="address" class="form-control-lg">
+            </div>
+
+            <div class="mb-3">
+                <select name="city" id="city" class='form-select'>
+                    <option value="select" selected disabled>select your city</option>
+                    <option value="1">delhi</option>
+                    <option value="2">bombay</option>
+                    <option value="3">chennai</option>
+                    <option value="4">pune</option>
+                </select>
+            </div>
+
+            <div class="form-check mb-3">
+                <label for="agree" class="form-check-label">Agree</label>
+                <input type="radio" name="agree" id="agree" class="form-check-input">
+            </div>
+
+            <div class="form-check mb-3">
+                <label for="rd" class="form-check-label">Disagree</label>
+                <input type="radio" name="agree" id="rd" class="form-check-input">
+            </div>
+
+        </form>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

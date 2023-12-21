@@ -1,0 +1,30 @@
+#container{
+    height: 50px;
+    width: 900px;
+
+    border: skyblue 2px solid;
+    border-radius: 10px;
+    background-color: pink;
+
+    display:flex;
+    justify-content: flex-start;
+    align-content:center ;
+
+    
+}
+
+div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+    line-height: 50px;
+    /* align-content: center; */
+    /* background-color: green; */
+    /* border: 3px solid black; */
+}
+/* .element{
+    margin-top: 10px;
+} */

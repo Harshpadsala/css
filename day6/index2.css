@@ -1,0 +1,15 @@
+/* cascading properties */
+h3{
+    background-color: green;
+}
+
+/* selector specificity 
+    
+
+____ ____   ____
+id  class  element
+    pseudo
+    class
+
+id > class > element
+*/

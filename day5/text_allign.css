@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    border: 1px;
+    border-style:solid;
+    text-align: right;
+    width: 50%;
+}
+h3{
+    text-align: left;
+}
+p{
+    border: 2px;
+    border-style : solid;
+    text-align: center;
+}
